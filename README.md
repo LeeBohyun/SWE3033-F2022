@@ -1,7 +1,7 @@
 # SWE3033-F2022
 SKKU Database Project Fall 2022
 
-This course is mainly based on the last year's course, thanks to the hard work of Mijin An and Jong-Hyeok Park.
+This course is mainly based on the last year's course, thanks to the contribution of Dr. An and Dr. Park.
 
 - Instructor: Prof. Sang-Won Lee (swlee@skku.edu)
 - TA
