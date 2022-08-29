@@ -24,19 +24,19 @@ From these three projects, you can learn how each database system works and unde
 | Week # | Topic              | Contents    | TA     |
 | :----: | :----------------- |:----------- | :----: |
 | 1      | | [Introduction](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-1) | Bo-Hyun Lee |
-| 2      | TPC-C on MySQL  |Introduction to MySQL and TPC-C benchmark (week-2) | Bo-Hyun Lee |
-| 3      | TPC-C on MySQL  |Load & run TPC-C, measure tpmC, and key metrics and analyze the results (week-3) | Bo-Hyun Lee |
-| 4      | TPC-C on MySQL |Exercise some parameter tuning, buffer manager code review, and project assignment (week-4) | Bo-Hyun Lee |
-| 5      | TPC-C on MySQL |Project #1 MySQL (week-5) | Bo-Hyun Lee |
-| 6      | YCSB on Rock  |Introduction to RocksDB and YCSB benchmark (week-6) | Mijin An |
+| 2      | TPC-C on MySQL  |Introduction to MySQL and TPC-C benchmark | Bo-Hyun Lee |
+| 3      | TPC-C on MySQL  |Load & run TPC-C, measure tpmC, and key metrics and analyze the results | Bo-Hyun Lee |
+| 4      | TPC-C on MySQL |Exercise some parameter tuning, buffer manager code review, and project assignment| Bo-Hyun Lee |
+| 5      | TPC-C on MySQL |Project #1 MySQL | Bo-Hyun Lee |
+| 6      | YCSB on Rock  |Introduction to RocksDB and YCSB benchmark | Mijin An |
 | 7      | YCSB on Rock  | TBD | Mijin An |
 | 8      | | **Mid-term exam** |  |
 | 9      | YCSB on Rock |TBD | Mijin An |
-| 10     | YCSB on Rock |Project #2 RocksDB (week-10) | Mijin An |
-| 11     | Androbench on SQLite |Introduction to SQLite and AndroBench (week-11) | Jong-Hyeok Park |
+| 10     | YCSB on Rock |Project #2 RocksDB | Mijin An |
+| 11     | Androbench on SQLite |Introduction to SQLite and AndroBench| Jong-Hyeok Park |
 | 12     | Androbench on SQLite | TBD | Jong-Hyeok Park |
 | 13     | Androbench on SQLite | TBD | Jong-Hyeok Park |
-| 14     | Androbench on SQLite | Project #3 RocksDB (week-14) | Jong-Hyeok Park |
+| 14     | Androbench on SQLite | Project #3 RocksDB | Jong-Hyeok Park |
 | 15     | | **Final exam** |  |
 
 ## Contact
