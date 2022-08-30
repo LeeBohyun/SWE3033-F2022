@@ -5,9 +5,9 @@ This course is mainly based on the last year's course, thanks to the contributio
 
 - Instructor: Prof. Sang-Won Lee (swlee@skku.edu)
 - TA
-    - Bo-Hyun Lee (lia323@skku.edu)
     - Mijin An (meeeejin@skku.edu)
     - Jong-Hyeok Park (akindo19@skku.edu)
+    - Bo-Hyun Lee (lia323@skku.edu)
 
 ## Introduction
 
