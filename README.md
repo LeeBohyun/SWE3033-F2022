@@ -39,6 +39,11 @@ From these three projects, you can learn how each database system works and unde
 | 14     | Androbench on SQLite | Project #3 RocksDB | Jong-Hyeok Park |
 | 15     | | **Final exam** |  |
 
+## Course Overview
+- Lecture video and experiment guide uploaded every Monday: recommend you to watch the videos before Wednesday
+- Offline Q&A lab every Wednesday: Ask questions and try to end the experiments during that time
+- Submit 2-page report before Sunday
+
 ## Contact
 
 - If you have any questions about this course, please contact the teaching assistant: Bo-Hyun Lee(lia323@skku.edu), Mijin An (meeeejin@skku.edu), and Jong-Hyeok Park (akindo19@skku.edu).
