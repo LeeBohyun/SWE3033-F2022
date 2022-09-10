@@ -25,7 +25,7 @@ From these three projects, you can learn how each database system works and unde
 | :----: | :----------------- |:----------- | :----: |
 | 1      | | [Introduction](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-1) | Bo-Hyun Lee |
 | 2      | TPC-C on MySQL  | [Load & run TPC-C, measure tpmC, and key metrics and analyze the results](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-2) | Bo-Hyun Lee |
-| 3      | TPC-C on MySQL  |Introduction to buffer manager, exercise some buffer manager related parameter tuning| Bo-Hyun Lee |
+| 3      | TPC-C on MySQL  |[Introduction to buffer manager, exercise some buffer manager related parameter tuning](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-3)| Bo-Hyun Lee |
 | 4      | TPC-C on MySQL |Buffer manager code review, and project assignment| Bo-Hyun Lee |
 | 5      | TPC-C on MySQL |Project #1 MySQL | Bo-Hyun Lee |
 | 6      | YCSB on Rock  |Introduction to RocksDB and YCSB benchmark | Mijin An |
