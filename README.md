@@ -47,7 +47,7 @@ From these three projects, you can learn how each database system works and unde
 ## Contact
 
 - If you have any questions about this course, please contact the teaching assistant: Bo-Hyun Lee(lia323@skku.edu), Mijin An (meeeejin@skku.edu), and Jong-Hyeok Park (akindo19@skku.edu).
-- You can also attend Q & A session every Wednesday 18:00PM - 19:00PM at 제2과학관 32동 32255.
+- You must attend Q & A session every Wednesday 18:00PM - 19:00PM at 제2과학관 32동 32255.
 
 ## References
 - https://github.com/meeeejin/SWE3033-F2021/
