@@ -5,7 +5,6 @@ This course is mainly based on the last year's course, thanks to the contributio
 
 - Instructor: Prof. Sang-Won Lee (swlee@skku.edu)
 - TA
-    - Mijin An (meeeejin@skku.edu)
     - Jong-Hyeok Park (akindo19@skku.edu)
     - Bo-Hyun Lee (lia323@skku.edu)
 
@@ -28,11 +27,11 @@ From these three projects, you can learn how each database system works and unde
 | 3      | TPC-C on MySQL  |[Introduction to buffer manager, exercise some buffer manager related parameter tuning](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-3)| Bo-Hyun Lee |
 | 4      | TPC-C on MySQL |[Buffer manager code review](https://github.com/LeeBohyun/mysql-tpcc/blob/master/buffer_manager/buffer_miss_scenario_monitoring.md), and [project assignment](https://github.com/LeeBohyun/mysql-tpcc/blob/master/buffer_manager/MySQL_project.md)| Bo-Hyun Lee |
 | 5      | TPC-C on MySQL |Project #1 MySQL | Bo-Hyun Lee |
-| 6      | YCSB on Rock  |Introduction to RocksDB and YCSB benchmark | Mijin An |
-| 7      | YCSB on Rock  | TBD | Mijin An |
+| 6      | YCSB on Rock  |Introduction to RocksDB and YCSB benchmark | Bo-Hyun Lee |
+| 7      | YCSB on Rock  | TBD | Bo-Hyun Lee |
 | 8      | | **Mid-term exam** |  |
-| 9      | YCSB on Rock |TBD | Mijin An |
-| 10     | YCSB on Rock |Project #2 RocksDB | Mijin An |
+| 9      | YCSB on Rock |TBD | Bo-Hyun Lee |
+| 10     | YCSB on Rock |Project #2 RocksDB | Bo-Hyun Lee |
 | 11     | Androbench on SQLite |Introduction to SQLite and AndroBench| Jong-Hyeok Park |
 | 12     | Androbench on SQLite | TBD | Jong-Hyeok Park |
 | 13     | Androbench on SQLite | TBD | Jong-Hyeok Park |
