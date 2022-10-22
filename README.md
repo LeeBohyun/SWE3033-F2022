@@ -30,7 +30,7 @@ From these three projects, you can learn how each database system works and unde
 | 6      | RocksDB |[Introduction to RocksDB and DBBench](https://github.com/LeeBohyun/SWE3033-F2021/blob/main/week-6/README.md) | Bo-Hyun Lee |
 | 7      | RocksDB | DBMS Space Management | Bo-Hyun Lee |
 | 8      | | **Mid-term exam** |  |
-| 9      | RocksDB |TBD | Bo-Hyun Lee |
+| 9      | RocksDB | Space Amplification in DBMS | Bo-Hyun Lee |
 | 10     | RocksDB |Project #2 RocksDB | Bo-Hyun Lee |
 | 11     | Androbench on SQLite |Introduction to SQLite and AndroBench| Jong-Hyeok Park |
 | 12     | Androbench on SQLite | TBD | Jong-Hyeok Park |
