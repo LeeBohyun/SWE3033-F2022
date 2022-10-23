@@ -1,4 +1,4 @@
-# PA 2: Compare Space Amplification in MySQL and RocksDB
+# PA2: Compare Space Amplification in MySQL and RocksDB
 
 
 # Overview
