@@ -32,10 +32,10 @@ From these three projects, you can learn how each database system works and unde
 | 8      | | **Mid-term exam** |  |
 | 9      | RocksDB | Space Amplification in DBMS | Bo-Hyun Lee |
 | 10     | RocksDB |[Project #2 RocksDB](https://github.com/LeeBohyun/SWE3033-F2022/blob/main/pa2.md) | Bo-Hyun Lee |
-| 11     | Androbench on SQLite |Introduction to SQLite and AndroBench| Jong-Hyeok Park |
+| 11     | Androbench on SQLite | [Introduction to SQLite and AndroBench](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-10)| Jong-Hyeok Park |
 | 12     | Androbench on SQLite | TBD | Jong-Hyeok Park |
 | 13     | Androbench on SQLite | TBD | Jong-Hyeok Park |
-| 14     | Androbench on SQLite | Project #3 RocksDB | Jong-Hyeok Park |
+| 14     | Androbench on SQLite | Project #3 SQLite | Jong-Hyeok Park |
 | 15     | | **Final exam** |  |
 
 ## Course Overview
