@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add	src/histogram.cc	/^void Histogram::Add(double value) {$/;"	f	class:sqliteBench::Histogram
+Average	src/histogram.cc	/^double Histogram::Average() const {$/;"	f	class:sqliteBench::Histogram
+BENCH_H_	include/bench.h	2;"	d
+Benchmark	include/bench.h	/^class Benchmark {$/;"	c	namespace:sqliteBench
+Clear	src/histogram.cc	/^void Histogram::Clear() {$/;"	f	class:sqliteBench::Histogram
+DBState	include/bench.h	/^  enum DBState {$/;"	g	class:sqliteBench::Benchmark
+EXISTING	include/bench.h	/^        EXISTING$/;"	e	enum:sqliteBench::Benchmark::DBState
+FLAGS_benchmarks	src/bench.cc	/^char* FLAGS_benchmarks;$/;"	m	namespace:sqliteBench	file:
+FLAGS_compression_ratio	src/bench.cc	/^double FLAGS_compression_ratio;$/;"	m	namespace:sqliteBench	file:
+FLAGS_db	src/bench.cc	/^char* FLAGS_db; $/;"	m	namespace:sqliteBench	file:
+FLAGS_histogram	src/bench.cc	/^bool FLAGS_histogram;$/;"	m	namespace:sqliteBench	file:
+FLAGS_journal_mode	src/bench.cc	/^char FLAGS_journal_mode[100];$/;"	m	namespace:sqliteBench	file:
+FLAGS_num	src/bench.cc	/^int FLAGS_num;$/;"	m	namespace:sqliteBench	file:
+FLAGS_num_pages	src/bench.cc	/^int FLAGS_num_pages;$/;"	m	namespace:sqliteBench	file:
+FLAGS_page_size	src/bench.cc	/^int FLAGS_page_size;$/;"	m	namespace:sqliteBench	file:
+FLAGS_raw	src/bench.cc	/^bool FLAGS_raw;$/;"	m	namespace:sqliteBench	file:
+FLAGS_reads	src/bench.cc	/^int FLAGS_reads;$/;"	m	namespace:sqliteBench	file:
+FLAGS_transaction	src/bench.cc	/^bool FLAGS_transaction;$/;"	m	namespace:sqliteBench	file:
+FLAGS_use_existing_db	src/bench.cc	/^bool FLAGS_use_existing_db;$/;"	m	namespace:sqliteBench	file:
+FLAGS_value_size	src/bench.cc	/^int FLAGS_value_size;$/;"	m	namespace:sqliteBench	file:
+FRESH	include/bench.h	/^      FRESH,$/;"	e	enum:sqliteBench::Benchmark::DBState
+Histogram	include/histogram.h	/^  Histogram() {}$/;"	f	class:sqliteBench::Histogram
+Histogram	include/histogram.h	/^class Histogram {$/;"	c	namespace:sqliteBench
+MEMORY_ALLOCATOR_H_	include/memory_allocator.h	2;"	d
+Median	src/histogram.cc	/^double Histogram::Median() const { return Percentile(50.0); }$/;"	f	class:sqliteBench::Histogram
+Memory_allocator	include/memory_allocator.h	/^    Memory_allocator() : data_(NULL), data_size_(0), pos_(0) {}$/;"	f	class:sqliteBench::Memory_allocator
+Memory_allocator	include/memory_allocator.h	/^class Memory_allocator {$/;"	c	namespace:sqliteBench
+Merge	src/histogram.cc	/^void Histogram::Merge(const Histogram& other) {$/;"	f	class:sqliteBench::Histogram
+Order	include/bench.h	/^  enum Order {$/;"	g	class:sqliteBench::Benchmark
+Percentile	src/histogram.cc	/^double Histogram::Percentile(double p) const {$/;"	f	class:sqliteBench::Histogram
+RANDOM	include/bench.h	/^        RANDOM$/;"	e	enum:sqliteBench::Benchmark::Order
+RANDOM_H_	include/random.h	2;"	d
+Random	include/random.h	/^typedef struct Random {$/;"	s	namespace:sqliteBench
+Random	include/random.h	/^} Random;$/;"	t	namespace:sqliteBench	typeref:struct:sqliteBench::Random
+RandomGenerator	include/random.h	/^class RandomGenerator {$/;"	c	namespace:sqliteBench
+SEQUENTIAL	include/bench.h	/^      SEQUENTIAL,$/;"	e	enum:sqliteBench::Benchmark::Order
+STORAGE_SQLITEBENCH_UTIL_HISTOGRAM_H_	include/histogram.h	2;"	d
+StandardDeviation	src/histogram.cc	/^double Histogram::StandardDeviation() const {$/;"	f	class:sqliteBench::Histogram
+ToString	src/histogram.cc	/^std::string Histogram::ToString() const {$/;"	f	class:sqliteBench::Histogram
+benchmark_close	src/bench.cc	/^void Benchmark::benchmark_close() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_directFillRand	src/homework.cc	/^  int Benchmark::benchmark_directFillRand(int num_) {$/;"	f	class:sqliteBench::Benchmark
+benchmark_example	src/homework.cc	/^  int Benchmark::benchmark_example() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_init	src/bench.cc	/^void Benchmark::benchmark_init() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_open	src/bench.cc	/^void Benchmark::benchmark_open() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_read	src/bench.cc	/^void Benchmark::benchmark_read(int order, int entries_per_batch) {$/;"	f	class:sqliteBench::Benchmark
+benchmark_run	src/bench.cc	/^void Benchmark::benchmark_run() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_setJournalMode	src/homework.cc	/^  int Benchmark::benchmark_setJournalMode() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_setPageSize	src/homework.cc	/^  int Benchmark::benchmark_setPageSize() {$/;"	f	class:sqliteBench::Benchmark
+benchmark_write	src/bench.cc	/^void Benchmark::benchmark_write(bool write_sync, int order, int state,$/;"	f	class:sqliteBench::Benchmark
+buckets_	include/histogram.h	/^  double buckets_[kNumBuckets];$/;"	m	class:sqliteBench::Histogram
+bytes_	include/bench.h	/^  int64_t bytes_;$/;"	m	class:sqliteBench::Benchmark
+compressible_string	src/random.cc	/^char* RandomGenerator::compressible_string(Random* rnd, double compressed_fraction, size_t len) {$/;"	f	class:sqliteBench::RandomGenerator
+data_	include/memory_allocator.h	/^  double *data_;$/;"	m	class:sqliteBench::Memory_allocator
+data_	include/random.h	/^    char* data_;$/;"	m	class:sqliteBench::RandomGenerator
+data_size_	include/memory_allocator.h	/^  size_t data_size_;$/;"	m	class:sqliteBench::Memory_allocator
+data_size_	include/random.h	/^    size_t data_size_;$/;"	m	class:sqliteBench::RandomGenerator
+db_	include/bench.h	/^  sqlite3* db_;$/;"	m	class:sqliteBench::Benchmark
+db_num_	include/bench.h	/^  int db_num_;$/;"	m	class:sqliteBench::Benchmark
+done_	include/bench.h	/^  int done_;$/;"	m	class:sqliteBench::Benchmark
+error_check	include/bench.h	/^	inline static void error_check(int status) {$/;"	f	class:sqliteBench::Benchmark
+exec_error_check	include/bench.h	/^  inline static void exec_error_check(int status, char* err_msg) {$/;"	f	class:sqliteBench::Benchmark
+finished_single_op	src/bench.cc	/^void Benchmark::finished_single_op() {$/;"	f	class:sqliteBench::Benchmark
+gen_	include/bench.h	/^  RandomGenerator gen_;$/;"	m	class:sqliteBench::Benchmark
+hist_	include/bench.h	/^  Histogram hist_;$/;"	m	class:sqliteBench::Benchmark
+init	main.cc	/^void init() {$/;"	f
+kBucketLimit	include/histogram.h	/^  static const double kBucketLimit[kNumBuckets];$/;"	m	class:sqliteBench::Histogram
+kBucketLimit	src/histogram.cc	/^const double Histogram::kBucketLimit[kNumBuckets] = {$/;"	m	class:sqliteBench::Histogram	file:
+kNumBuckets	include/histogram.h	/^  enum { kNumBuckets = 154 };$/;"	e	enum:sqliteBench::Histogram::__anon1
+kNumBuckets	include/memory_allocator.h	12;"	d
+kNumData	include/memory_allocator.h	13;"	d
+last_op_finish_	include/bench.h	/^  double last_op_finish_;$/;"	m	class:sqliteBench::Benchmark
+main	main.cc	/^int main (int argc, char** argv) {$/;"	f
+max_	include/histogram.h	/^  double max_;$/;"	m	class:sqliteBench::Histogram
+message_	include/bench.h	/^  char* message_;$/;"	m	class:sqliteBench::Benchmark
+min_	include/histogram.h	/^  double min_;$/;"	m	class:sqliteBench::Histogram
+next_report_	include/bench.h	/^  int next_report_;$/;"	m	class:sqliteBench::Benchmark
+now_micros	src/util.cc	/^uint64_t now_micros() {$/;"	f	namespace:sqliteBench
+num_	include/bench.h	/^  int num_;$/;"	m	class:sqliteBench::Benchmark
+num_	include/histogram.h	/^  double num_;$/;"	m	class:sqliteBench::Histogram
+pos_	include/memory_allocator.h	/^  int pos_;$/;"	m	class:sqliteBench::Memory_allocator
+pos_	include/random.h	/^    int pos_;$/;"	m	class:sqliteBench::RandomGenerator
+print_env	src/bench.cc	/^void Benchmark::print_env() {$/;"	f	class:sqliteBench::Benchmark
+print_header	src/bench.cc	/^void Benchmark::print_header() {$/;"	f	class:sqliteBench::Benchmark
+print_usage	main.cc	/^void print_usage(const char* argv0) {$/;"	f
+print_warnings	src/bench.cc	/^void Benchmark::print_warnings() {$/;"	f	class:sqliteBench::Benchmark
+rand_	include/bench.h	/^  Random rand_;$/;"	m	class:sqliteBench::Benchmark
+rand_	include/random.h	/^    Random rand_;$/;"	m	class:sqliteBench::RandomGenerator
+rand_gen_generate	src/random.cc	/^char* RandomGenerator::rand_gen_generate(int len) {$/;"	f	class:sqliteBench::RandomGenerator
+rand_gen_init	src/random.cc	/^void RandomGenerator::rand_gen_init(double compression_ratio) {$/;"	f	class:sqliteBench::RandomGenerator
+rand_init	src/random.cc	/^void RandomGenerator::rand_init(uint32_t s) {$/;"	f	class:sqliteBench::RandomGenerator
+rand_next	src/random.cc	/^uint32_t RandomGenerator::rand_next() {$/;"	f	class:sqliteBench::RandomGenerator
+rand_uniform	src/random.cc	/^uint32_t RandomGenerator::rand_uniform(int n) { $/;"	f	class:sqliteBench::RandomGenerator
+random_string	src/random.cc	/^char* RandomGenerator::random_string(Random* rnd, int len) {$/;"	f	class:sqliteBench::RandomGenerator
+raw_	include/bench.h	/^  Memory_allocator raw_;$/;"	m	class:sqliteBench::Benchmark
+raw_add	src/memory_allocator.cc	/^void Memory_allocator::raw_add(double value) {$/;"	f	class:sqliteBench::Memory_allocator
+raw_calloc	src/memory_allocator.cc	/^void Memory_allocator::raw_calloc() {$/;"	f	class:sqliteBench::Memory_allocator
+raw_clear	src/memory_allocator.cc	/^void Memory_allocator::raw_clear() {$/;"	f	class:sqliteBench::Memory_allocator
+raw_print	src/memory_allocator.cc	/^void Memory_allocator::raw_print(FILE *stream) {$/;"	f	class:sqliteBench::Memory_allocator
+raw_realloc	src/memory_allocator.cc	/^void Memory_allocator::raw_realloc() {$/;"	f	class:sqliteBench::Memory_allocator
+raw_to_string	src/memory_allocator.cc	/^char* Memory_allocator::raw_to_string() {$/;"	f	class:sqliteBench::Memory_allocator
+reads_	include/bench.h	/^  int reads_;$/;"	m	class:sqliteBench::Benchmark
+seed_	include/random.h	/^  uint32_t seed_;$/;"	m	struct:sqliteBench::Random
+sqliteBench	include/bench.h	/^namespace sqliteBench {$/;"	n
+sqliteBench	include/histogram.h	/^namespace sqliteBench {$/;"	n
+sqliteBench	include/memory_allocator.h	/^namespace sqliteBench {$/;"	n
+sqliteBench	include/random.h	/^namespace sqliteBench {$/;"	n
+sqliteBench	src/bench.cc	/^namespace sqliteBench {$/;"	n	file:
+sqliteBench	src/histogram.cc	/^namespace sqliteBench {$/;"	n	file:
+sqliteBench	src/homework.cc	/^namespace sqliteBench {$/;"	n	file:
+sqliteBench	src/memory_allocator.cc	/^namespace sqliteBench {$/;"	n	file:
+sqliteBench	src/random.cc	/^namespace sqliteBench {$/;"	n	file:
+sqliteBench	src/util.cc	/^namespace sqliteBench {$/;"	n	file:
+start	src/bench.cc	/^void Benchmark::start() {$/;"	f	class:sqliteBench::Benchmark
+start_	include/bench.h	/^  double start_;$/;"	m	class:sqliteBench::Benchmark
+starts_with	src/util.cc	/^bool starts_with(const char* str, const char* pre) {$/;"	f	namespace:sqliteBench
+step_error_check	include/bench.h	/^  inline static void step_error_check(int status) {$/;"	f	class:sqliteBench::Benchmark
+stop	src/bench.cc	/^void Benchmark::stop(const char* name) {$/;"	f	class:sqliteBench::Benchmark
+sum_	include/histogram.h	/^  double sum_;$/;"	m	class:sqliteBench::Histogram
+sum_squares_	include/histogram.h	/^  double sum_squares_;$/;"	m	class:sqliteBench::Histogram
+trim_space	src/util.cc	/^char* trim_space(const char* s) {$/;"	f	namespace:sqliteBench
+wal_checkpoint	src/bench.cc	/^inline void wal_checkpoint(sqlite3* db_) {$/;"	f	namespace:sqliteBench
+~Histogram	include/histogram.h	/^  ~Histogram() {}$/;"	f	class:sqliteBench::Histogram
