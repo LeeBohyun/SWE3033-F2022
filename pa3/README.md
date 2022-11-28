@@ -1,8 +1,8 @@
-# Week 11
+# Project 3
 
 ## Overview
 
-This week you will implement a SQLite benchmark program (SQLiteBench) using C/C++ SQLite API
+In this project, you will implement a SQLite benchmark program (SQLiteBench) using C/C++ SQLite API
 
 Follow the guide below. If you have any questions, Please feel free to contact me via email (Jonghyeok Park / akindo19@skku.edu)
 
@@ -300,12 +300,67 @@ void Benchmark::setWalJournalMode() {
     }
     ```
 
+### Add your own benchmark functions
+
+1. Add your own benchmark function in `sqlite3Bench`. Belows are some examples:
+  - Support different workloads (e.g., skewed workload, sequential workload, etc)
+  - Support benchmark statistics (e.g., total # of executions, CPU and disk info, etc)
+
+2. Guideline for adding functions (Please see `benchmark_example()` function).
+
+- `SWE3033-F2022/pa3/sqlite3Bench/include/bench.h`
+
+```
+class Benchmark {
+
+  // xxx(homework)
+  int benchmark_setJournalMode();
+  int benchmark_setPageSize();
+  int benchmark_directFillRand(int num_);
+  int benchmark_example();
+ 
+ };
+```
+
+- `SWE3033-F2022/pa3/sqlite3Bench/src/bench.cc`
+
+```
+void Benchmark::benchmark_run() {
+  if (!strcmp(name, "fillseq")) {
+    benchmark_write(write_sync, SEQUENTIAL, FRESH, num_, FLAGS_value_size, 1);
+    wal_checkpoint(db_);
+  } 
+  // xxx(homework)
+  else if (!strcmp(name, "directfillrandom")) {
+    benchmark_directFillRand(num_);
+  }
+  else if (!strcmp(name, "example")) {
+    benchmark_example();
+  } 
+}
+```
+
+- `SWE3033-F2022/pa3/sqlite3Bench/src/homework.cc`
+
+```
+  int Benchmark::benchmark_example() {
+    fprintf(stderr, "example functions works!\n");
+    return 0;
+  }
+```
 
 
 ### Report Submission
 
-1. Follow the guideline (Insturuction #5) and write  source code (`SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc`) 
-2. Write a simple comment (if any, less then 5 sentences) for your implementation in the source code  and attach a screenshot of running the command below.
+1. Follow the guideline (Insturuction #5) and write source code (`SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc`) 
+2. Write a simple comment (if any, less then 5 sentences) for your implementation in the source code and attach a screenshot of running the command below.
+3. Present PPT slides including belows
+  - Motivation (i.e., why we buid this benchmark, )
+  - Design of `sqlite3Bench` (i.e., Describe overall architecture of `sqlite3Bench`)
+  - Implementation (i.e., Explain your code)
+  - Demonstration video (i.e., Excute benchmark functions in homework.cc including your own benchmark function)
+  - Conclusion
+
 
 - command
   ```
@@ -315,7 +370,9 @@ void Benchmark::setWalJournalMode() {
   - I used xxx API function for yyy and I used zzz to check the journal name
 
 Organize the source code file (only `SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc` file)and screenshot into the single zip file. 
-  - file name format: {Student ID}-{Name}-{week#}.pdf (e.g., 2021000000-JonghyeokPark-week11.zip)
+  - Record your presentation [2] using your own slide and convert to mp4[3] (Please record your face too)
+  - Presentation file name format: {Student ID}-{Name}.mp4 
+  - Zip filename format: (e.g., 2021000000-JonghyeokPark-pa3.zip)
 
 
 ### Tip. How to build debug mode in CMake build configuration (Optional)
@@ -327,4 +384,6 @@ CC=gcc CXX=g++ cmake .. -DCMAKE_BUILD_TYPE=Debug
 ```
 
 ## Reference
-- [SQLite PRAGMA](https://www.sqlite.org/pragma.html)
+[1] [SQLite PRAGMA](https://www.sqlite.org/pragma.html)
+[2] [Record PPT slide](https://support.microsoft.com/en-us/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
+[3] [Convert PPT Slide to MP4 file](https://support.microsoft.com/en-us/office/save-a-presentation-as-a-movie-file-or-mp4-4e1ebcc1-f46b-47b6-922a-bac76c4a5691))
