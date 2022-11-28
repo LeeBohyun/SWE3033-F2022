@@ -51,7 +51,6 @@ namespace sqliteBench {
   }
 
   // xxx(homework)
-  // Optional !!!
   // write your own benchmark functions
   // you can add multiple functions as you like 
   // you can change function name. Here example is literally example.

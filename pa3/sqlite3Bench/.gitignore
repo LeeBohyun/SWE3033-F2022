@@ -9,3 +9,4 @@ compile_commands.json
 CTestTestfile.cmake
 ctags
 cscope.*
+build/
