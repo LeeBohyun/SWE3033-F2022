@@ -369,7 +369,7 @@ void Benchmark::benchmark_run() {
 - comment (example)
   - I used xxx API function for yyy and I used zzz to check the journal name
 
-Organize the source code file (only `SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc` file)and screenshot into the single zip file. 
+Organize the source code file (only `[SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc](https://github.com/LeeBohyun/SWE3033-F2022/blob/main/pa3/sqlite3Bench/src/homework.cc)` file)and screenshot into the single zip file. 
   - Record your presentation [2] using your own slide and convert to mp4[3] (Please record your face too)
   - Presentation file name format: {Student ID}-{Name}.mp4 
   - Zip filename format: (e.g., 2021000000-JonghyeokPark-pa3.zip)
