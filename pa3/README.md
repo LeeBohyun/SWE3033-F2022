@@ -21,7 +21,7 @@ sudo apt-get install git
 sudo apt-get install cmake 
 ```
 - sqlite library
-  1. go to the directory you have insatlled SQLite database in week 10.
+  1. go to the directory you have insatlled SQLite database in [week 11](https://github.com/meeeejin/SWE3033-F2021/tree/main/week-10).
   2. type `sudo make install -j` command (install library)
 
 ```
