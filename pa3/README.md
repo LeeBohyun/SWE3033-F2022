@@ -33,7 +33,7 @@ sudo make install -j
 ### 0. Download SQLiteBench soruce code
 
 ```
-git clone https://github.com/meeeejin/SWE3033-F2021.git
+git clone https://github.com/LeeBohyun/SWE3033-F2022.git
 cd SWE3033-F2022/pa3
 
 // if you already cloned the reposity then 
@@ -45,7 +45,7 @@ git pull
 ### 1. How to compile the `SQLiteBench`
 
 ```
-cd SWE3033-F2021/week-11/sqlite3Bench
+cd SWE3033-F2022/pa3/sqlite3Bench
 mkdir build && cd build
 CC=gcc CXX=g++ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j
