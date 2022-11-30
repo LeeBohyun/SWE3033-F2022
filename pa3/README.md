@@ -34,10 +34,10 @@ sudo make install -j
 
 ```
 git clone https://github.com/meeeejin/SWE3033-F2021.git
-cd SWE3033-F2021/week-11
+cd SWE3033-F2022/pa3
 
 // if you already cloned the reposity then 
-cd SWE3033-F2021
+cd SWE3033-F2022
 git pull
 
 ```
@@ -48,6 +48,7 @@ git pull
 cd SWE3033-F2021/week-11/sqlite3Bench
 mkdir build && cd build
 CC=gcc CXX=g++ cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j
 ```
 
 ### 2. How to run the `SQLiteBench`
@@ -386,4 +387,4 @@ CC=gcc CXX=g++ cmake .. -DCMAKE_BUILD_TYPE=Debug
 ## Reference
 - [1] [SQLite PRAGMA](https://www.sqlite.org/pragma.html)
 - [2] [Record PPT slide](https://support.microsoft.com/en-us/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
-- [3] [Convert PPT Slide to MP4 file](https://support.microsoft.com/en-us/office/save-a-presentation-as-a-movie-file-or-mp4-4e1ebcc1-f46b-47b6-922a-bac76c4a5691))
+- [3] [Convert PPT Slide to MP4 file](https://support.microsoft.com/en-us/office/save-a-presentation-as-a-movie-file-or-mp4-4e1ebcc1-f46b-47b6-922a-bac76c4a5691)
