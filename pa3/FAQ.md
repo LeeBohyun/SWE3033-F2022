@@ -43,18 +43,18 @@ Q6. PPT에 포함될 내용 중 Motivation의 경우, own benchmark function에 
 Motivation에 대한 범위는 "SQLite Benchmark에 대한 motivation" 을 자유롭게 작성/발표해주시면 됩니다.
 ```
 
-Q6. PPT에 포함될 내용 중 Motivation의 경우, own benchmark function에 대한 motivation인가요 혹은 제시된 3개의 함수까지 포함한 전체적인 motivation인가요?
+Q7. PPT에 포함될 내용 중 Motivation의 경우, own benchmark function에 대한 motivation인가요 혹은 제시된 3개의 함수까지 포함한 전체적인 motivation인가요?
 ```
 네 맞습니다. 구체적으로, 기본 homework.cc 에 제공된 함수 + 본인이 새롭게 제한하는 함수에 대한 설명을 해주시면 됩니다.
 ```
 
-Q7. PPT에 포함될 내용 중 Design of sqlite3Bench 의 경우, README.md의 3. About SQLiteBench 를 풀어서 설명하는 느낌이 맞을까요?
+Q8. PPT에 포함될 내용 중 Design of sqlite3Bench 의 경우, README.md의 3. About SQLiteBench 를 풀어서 설명하는 느낌이 맞을까요?
 ```
 발표영상 길이에는 따로 제한이 없습니다. (10~15분 정도면 충분할 것 같습니다. 수업때 따로 재공지드리겠습니다.)
 추가적으로, 발표 형식, 분량 제한은 전혀 없습니다. 
 ```
 
-Q8. 발표자료/영상 영어 사용 문의
+Q9. 발표자료/영상 영어 사용 문의
 ```
 발표자료 및 발표영상의 경우 한국어/영어 모두 가능합니다.
 ```
