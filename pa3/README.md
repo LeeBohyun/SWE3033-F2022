@@ -384,6 +384,10 @@ mkdir build && cd debug_build
 CC=gcc CXX=g++ cmake .. -DCMAKE_BUILD_TYPE=Debug
 ```
 
+## SW Contest Enrollment
+
+Please enroll the SW Contest [Here](https://forms.gle/zgHrbmpZrcjhvyqv6)
+
 ## Reference
 - [1] [SQLite PRAGMA](https://www.sqlite.org/pragma.html)
 - [2] [Record PPT slide](https://support.microsoft.com/en-us/office/record-a-presentation-2570dff5-f81c-40bc-b404-e04e95ffab33)
