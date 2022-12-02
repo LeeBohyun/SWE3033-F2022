@@ -353,7 +353,7 @@ void Benchmark::benchmark_run() {
 
 ### Report Submission
 
-1. Follow the guideline (Insturuction #5) and write source code (`SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc`) 
+1. Follow the guideline (Insturuction #5) and write source code (`SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc` and other source code files too if needed) 
 2. Write a simple comment (if any, less then 5 sentences) for your implementation in the source code and attach a screenshot of running the command below.
 3. Present PPT slides including belows
   - Motivation (i.e., why we buid this benchmark, )
@@ -370,7 +370,7 @@ void Benchmark::benchmark_run() {
 - comment (example)
   - I used xxx API function for yyy and I used zzz to check the journal name
 
-Organize the source code file (only [SWE3033-F2021/week-11/sqlite3Bench/src/homework.cc](https://github.com/LeeBohyun/SWE3033-F2022/blob/main/pa3/sqlite3Bench/src/homework.cc) file)and screenshot into the single zip file. 
+Organize the entire source file (e.g., sqlite3Bench.zip) and screenshot into the single zip file. 
   - Record your presentation [2] using your own slide and convert to mp4[3] (Please record your face too)
   - Presentation file name format: {Student ID}-{Name}.mp4 
   - Zip filename format: (e.g., 2021000000-JonghyeokPark-pa3.zip)
